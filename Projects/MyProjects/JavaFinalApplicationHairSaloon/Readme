@@ -1,0 +1,17 @@
+salon_services table:
+
+CREATE TABLE salon_services (
+    service_id INT PRIMARY KEY,
+    service_name VARCHAR(100),
+    price DOUBLE
+);
+
+
+Appointments table:
+
+CREATE TABLE appointments (
+    appointment_id INT PRIMARY KEY,
+    customer_name VARCHAR(100),
+    service_name VARCHAR(100),
+    appointment_date VARCHAR(50)
+);
